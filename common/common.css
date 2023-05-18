@@ -1,0 +1,42 @@
+/* 背景色主色调 */
+
+page {
+	background-color: #1e1e1e;
+	color: #f1f1f1;
+}
+
+
+.bg-main{
+	background-color: #1e1e1e!important;
+}
+.bg-main-dark {
+	background-color: #2e2a38;
+}
+.bg-main-hover{
+	background-color: #51BBFF!important;
+}
+.bg-main-disabled{
+	background-color: #51BBFF!important;
+}
+.bg-purple {
+	background-color: #7948ea;
+}
+.text-purple {
+	color: #7948ea;
+}
+
+.text-purple-dark {
+	color: #2e2a38;
+}
+/* 文字主色调 */
+.text-main{
+	color: #a6a6a6!important;
+}
+.text-main-hover{
+	color: #f1f1f1!important;
+}
+
+
+.border-main{
+	border-color: #7948ea!important;
+}

@@ -1,0 +1,392 @@
+{
+	"pages": [
+		//pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "魅塔",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "魅塔",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+
+		{
+			"path": "pages/collection/collection",
+			"style": {
+				"navigationBarTitleText": "藏品",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		
+		{
+			"path": "pages/killTower/killTower",
+			"style": {
+				"navigationBarTitleText": "杀戮塔",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/market/market",
+			"style": {
+				"navigationBarTitleText": "市场",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "my",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/loginSuccess/loginSuccess",
+			"style": {
+				"navigationBarTitleText": "注册成功",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/rankPage/rankPage",
+			"style": {
+				"navigationBarTitleText": "rank",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/collection/collectionDetail/collectionDetail",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/collectDetail/collectDetail",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			},
+			"app-plus": {
+				"titleNView": false
+			}
+		},
+		{
+			"path": "pages/collect-sale/collect-sale",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/collect-zhuanzeng/collect-zhuanzeng",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/finishDetail/finishDetail",
+			"style": {
+				"navigationBarTitleText": "完善个人资料",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/realname/realname",
+			"style": {
+				"navigationBarTitleText": "实名认证",
+				"enablePullDownRefresh": false
+			}
+		}
+	    ,{
+            "path" : "pages/invitePage/invitePage",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/inviteUserPage/inviteUserPage",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				//本行代码关闭导航栏
+				"app-plus": {"titleNView": false}
+            }
+            
+        }
+        ,{
+            "path" : "pages/InviteRankDetail/InviteRankDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				//本行代码关闭导航栏
+				"app-plus": {"titleNView": false}
+            }
+            
+        }
+        ,{
+            "path" : "pages/haibaoPage/haibaoPage",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				//本行代码关闭导航栏
+				"app-plus": {"titleNView": false}
+            }
+            
+        }
+        
+        ,{
+            "path" : "pages/UserAgreementPage/UserAgreementPage",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				//本行代码关闭导航栏
+				"app-plus": {"titleNView": false}
+            }
+            
+        }
+		,{
+		    "path" : "pages/PrivacyPolicyPage/PrivacyPolicyPage",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": false,
+				//本行代码关闭导航栏
+				"app-plus": {"titleNView": false}
+		    }
+		    
+		}
+        ,{
+            "path" : "pages/MinePage/MinePage",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/searchPage/searchPage",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				//本行代码关闭导航栏
+				"app-plus": {"titleNView": false}
+            }
+        }
+        ,{
+            "path" : "pages/ChartsPage/ChartsPage",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				//本行代码关闭导航栏
+				"app-plus": {"titleNView": false}
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/index-huizhangDetail/index-huizhangDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				//本行代码关闭导航栏
+				"app-plus": {"titleNView": false}
+            }
+            
+        }
+        ,{
+            "path" : "pages/officialMarketPage/officialMarketPage",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				//本行代码关闭导航栏
+				"app-plus": {"titleNView": false}
+            }
+            
+        }
+        ,{
+            "path" : "pages/purchasePage/purchasePage",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				//本行代码关闭导航栏
+				"app-plus": {"titleNView": false}
+            }
+            
+        },
+		{
+		    "path" : "pages/transferPage/transferPage",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": false,
+				//本行代码关闭导航栏
+				"app-plus": {"titleNView": false}
+		    }
+		    
+		}
+        ,{
+            "path" : "pages/orderPage/orderPage",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				//本行代码关闭导航栏
+				"app-plus": {"titleNView": false}
+            }
+            
+        }
+        ,{
+            "path" : "pages/settingPage/settingPage",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				//本行代码关闭导航栏
+				"app-plus": {"titleNView": false}
+            }
+            
+        }
+		,{
+		    "path" : "pages/zhuanzengRecordPage/zhuanzengRecordPage",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": false,
+				//本行代码关闭导航栏
+				"app-plus": {"titleNView": false}
+		    }
+		    
+		}
+        ,{
+            "path" : "pages/my/choujiang/giftListPage/giftListPage",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				//本行代码关闭导航栏
+				"app-plus": {"titleNView": false}
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/choujiang/giftListPage/giftDetailPage/giftDetailPage",
+
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				//本行代码关闭导航栏
+				"app-plus": {"titleNView": false}
+            }
+            
+        }
+        ,{
+            "path" : "pages/myLotteryPage/myLotteryPage",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				//本行代码关闭导航栏
+				"app-plus": {"titleNView": false}
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "魅塔",
+		"navigationBarBackgroundColor": "#1e1e1e",
+		"backgroundColor": "#1e1e1e"
+	},
+	"tabBar": {
+		"backgroundColor": "#1e1e1e",
+		"borderStyle": "#1e1e1e",
+		"iconWidth": "25px",
+		"fontSize": "10px",
+		"height": "70px",
+		"selectedColor": "#9577e8",
+		"list": [
+			{
+				"iconPath": "./static/tabbar/index.png",
+				"selectedIconPath": "static/tabbar/index-select.png",
+				"pagePath": "pages/index/index",
+				"text": "首页"
+			},
+			{
+				"iconPath": "./static/tabbar/market.png",
+				"selectedIconPath": "static/tabbar/market-select.png",
+				"pagePath": "pages/market/market",
+				"text": "市场"
+			},
+			{
+				"iconPath": "./static/tabbar/killTower.png",
+				"selectedIconPath": "static/tabbar/killTower-select.png",
+				"pagePath": "pages/killTower/killTower",
+				"text": "杀戮塔"
+			},
+			{
+				"iconPath": "./static/tabbar/collection.png",
+				"selectedIconPath": "static/tabbar/collection-select.png",
+				"pagePath": "pages/collection/collection",
+				"text": "藏品"
+			},
+			{
+				"iconPath": "./static/tabbar/my.png",
+				"selectedIconPath": "static/tabbar/my-select.png",
+				"pagePath": "pages/my/my",
+				"text": "我的"
+			}
+		]
+	},
+	"condition": { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "testLogin", //模式名称
+				"path": "pages/login/login", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			}
+		]
+	}
+}
